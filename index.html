@@ -6,29 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi hoja de vida</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="container-fluid">
+            <a class="navbar-brand d-lg-none" href="#">
+                <img src="./uploads/logo.jpg" alt="Logo">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">Mi CV</a>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="/">Sobre mi</a>
+                        <a class="nav-link " aria-current="page" href="index.html">Sobre mi</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./diplomas.html">Diplomas</a>
                     </li>
+                    <a class="navbar-brand d-none d-lg-block" href="index.html">
+                        <img src="./uploads/logo.jpg" alt="Logo">
+                    </a>
                     <li class="nav-item">
                         <a class="nav-link" href="./proyectos.html">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./contactame">Contactame</a>
+                        <a class="nav-link" href="./contactame.html">Contactame</a>
                     </li>
                 </ul>
             </div>
@@ -38,6 +44,7 @@
     <main>
         <div class="container">
             <div class="row">
+                <div class="col-12"><div id="google_translate_element" class="google pt-3 text-end"></div></div>
                 <div class="col-12">
                     <div class="card mt-5 text-center p-5 shadow bg-white border border-1">
                         <h1>Isaac Humberto Estrada Mejia</h1>
@@ -45,7 +52,7 @@
                         <h3 class="text-secondary">Desarrollador web junior</h3>
 
                         <section class="mt-5">
-                            <p class="fw-bold">Ingeniero en Sistemas | isaacstrmjia@hotmail.com | 78191241 </p>
+                            <p class="fw-bold">| Ingeniero en Sistemas | isaacstrmjia@hotmail.com | 78191241 |</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nostrum architecto velit
                                 error eum ipsam. Harum doloremque temporibus cumque pariatur consequatur assumenda
                                 nostrum! Error, odit repellat eum necessitatibus autem quam.
@@ -119,7 +126,8 @@
     </main>
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
-
+    <script src="./assets/js/script.js"></script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 
 </html>
